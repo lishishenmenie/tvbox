@@ -4,11 +4,23 @@
       "key": "hsck",
       "name": "Hsck",
       "type": 3,
-      "api": "./hsck.js",
+      "api": "js:var rule = {title:'Hsck',host:'https://hsck3.u0u0.cc',homeUrl:'/',url:'/?type=fyclass&p=fypage',searchUrl:'/?search2=ndafeoafa&search=**',searchable:2,quickSearch:0,headers:{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36','Referer':'https://hsck3.u0u0.cc/'},class_parse:'.stui-header__menu&&a;a&&Text;a&&href;.*type=(.*?)&',play_parse:true,lazy:'',limit:6,'推荐':'.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href','一级':'.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href','二级':{'title':'h1&&Text;.stui-content__detail&&Text','img':'.stui-content__thumb&&img&&data-original','desc':'.stui-content__detail&&Text','content':'.detail&&Text','tabs':'','lists':'#video_img&&src'},'搜索':'.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href'};",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://hsck3.u0u0.cc"
+      "ext": "https://hsck3.u0u0.cc",
+      "class": [
+        {"type_name": "国产新片", "type_id": "ycgc"},
+        {"type_name": "国产旧片", "type_id": "gcjp"},
+        {"type_name": "步兵中文字幕", "type_id": "wz"},
+        {"type_name": "骑兵中文字幕", "type_id": "yz"},
+        {"type_name": "日本步兵", "type_id": "rw"},
+        {"type_name": "日本骑兵", "type_id": "ry"},
+        {"type_name": "骑兵破解", "type_id": "qp"},
+        {"type_name": "国产剧", "type_id": "gc"},
+        {"type_name": "欧美剧", "type_id": "om"},
+        {"type_name": "动漫视频", "type_id": "dm"}
+      ]
     }
   ],
   "parses": [],
