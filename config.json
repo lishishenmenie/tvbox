@@ -4,7 +4,7 @@
       "key": "hsck",
       "name": "Hsck",
       "type": 3,
-      "api": "js:var rule = {title:'Hsck',host:'https://hsck3.u0u0.cc',homeUrl:'/',url:'/?type=fyclass&p=fypage',searchUrl:'/?search2=ndafeoafa&search=**',searchable:2,quickSearch:0,headers:{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36','Referer':'https://hsck3.u0u0.cc/'},class_parse:'.stui-header__menu&&a;a&&Text;a&&href;.*type=(.*?)&',play_parse:true,lazy:'',limit:6,'推荐':'.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href','一级':'.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href','二级':{'title':'h1&&Text;.stui-content__detail&&Text','img':'.stui-content__thumb&&img&&data-original','desc':'.stui-content__detail&&Text','content':'.detail&&Text','tabs':'','lists':'#video_img&&src'},'搜索':'.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href'};",
+      "api": "https://lishishenmenie.github.io/tvbox/hsck.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
