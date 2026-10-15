@@ -10,19 +10,18 @@ var rule = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36',
         'Referer': 'https://hsck3.u0u0.cc/'
     },
-    class_parse: '.stui-header__menu&&a;a&&Text;a&&href;.*type=(.*?)&',
     play_parse: true,
     lazy: '',
     limit: 6,
-    推荐: '.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href',
-    一级: '.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href',
+    推荐: '.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href',
+    一级: '.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href',
     二级: {
-        "title": "h1&&Text;.stui-content__detail&&Text",
-        "img": ".stui-content__thumb&&img&&data-original",
-        "desc": ".stui-content__detail&&Text",
-        "content": ".detail&&Text",
+        "title": "h1&&Text",
+        "img": "#video_img&&alt",
+        "desc": "body&&Text",
+        "content": "body&&Text",
         "tabs": "",
         "lists": "#video_img&&src"
     },
-    搜索: '.stui-vodlist__box;.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href'
+    搜索: '.stui-vodlist__thumb;a&&title;img&&data-original;.pic-text&&Text;a&&href'
 };
