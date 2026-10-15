@@ -1,0 +1,18 @@
+{
+  "sites": [
+    {
+      "key": "hsck",
+      "name": "Hsck",
+      "type": 3,
+      "api": "./hsck.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://hsck3.u0u0.cc"
+    }
+  ],
+  "parses": [],
+  "flags": [],
+  "wallpaper": "",
+  "spider": ""
+}
